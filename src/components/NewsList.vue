@@ -39,3 +39,22 @@ export default {
      };
      
 </script>
+
+<style>
+  .news__item{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:0.2rem;
+    max-width:80rem;
+    margin:5rem auto;
+    padding: 0 5rem;
+    grid-gap:0.2rem;
+    
+  }
+ .images{
+    width:100%;
+ 	height: 22vw;
+ 	object-fit:cover;
+ 	border-radius :0.75rem;
+ }
+</style>
